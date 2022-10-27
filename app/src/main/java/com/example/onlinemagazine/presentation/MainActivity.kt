@@ -1,7 +1,8 @@
-package com.example.onlinemagazine
+package com.example.onlinemagazine.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.onlinemagazine.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
