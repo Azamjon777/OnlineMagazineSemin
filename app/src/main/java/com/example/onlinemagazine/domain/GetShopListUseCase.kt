@@ -2,8 +2,8 @@ package com.example.onlinemagazine.domain
 
 import com.example.onlinemagazine.domain.model.ShopItemModel
 
-class GetShopListUseCase {
+class GetShopListUseCase(private val shopListRepository: ShopListRepository) {
     fun getShopList(): List<ShopItemModel> {
-        TODO()
+        return shopListRepository.getShopList()
     }
 }
